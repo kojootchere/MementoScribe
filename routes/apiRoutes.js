@@ -1,7 +1,9 @@
 const fs = require('fs');
+const express = require('express');
+const app = express();
 
 // Get all notes
-app.get('/api/notes', (req, res) => {
+app.get('/', (req, res) => {
     fs.readFile('./db/db.json', 'utf8', (err, data) => {
         if (err) throw err;
         res.json(JSON.parse(data));
@@ -9,7 +11,7 @@ app.get('/api/notes', (req, res) => {
 });
 
 // Save a new note
-app.post('/api/notes', (req, res) => {
+app.post('/', (req, res) => {
     const newNote = req.body;
     // Give the note a unique ID
     newNote.id = Date.now();
@@ -26,7 +28,7 @@ app.post('/api/notes', (req, res) => {
     });
 });
 
-app.delete('/api/notes/:id', (req, res) => {
+app.delete('/:id', (req, res) => {
     const noteId = parseInt(req.params.id);
 
     fs.readFile('./db/db.json', 'utf8', (err, data) => {
@@ -40,3 +42,5 @@ app.delete('/api/notes/:id', (req, res) => {
         });
     });
 });
+
+module.exports = app;
