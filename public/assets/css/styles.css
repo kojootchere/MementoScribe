@@ -1,78 +1,91 @@
+/* Setting base styles for the entire document */
 html,
 body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
+  height: 100%; /* Sets the height to take up the full viewport */
+  margin: 0;    /* Removes default margin */
+  padding: 0;   /* Removes default padding */
 }
 
+/* Styles for the save-note class */
 .save-note {
-  display: none;
+  display: none; /* Initially hides the save note button or element */
 }
 
+/* Styling for the icons within a parent with class 'icons' */
 .icons i {
-  margin-left: 15px;
-  margin-right: 15px;
-  font-size: 1.5rem;
-  cursor: pointer;
+  margin-left: 15px;      /* Space to the left of the icon */
+  margin-right: 15px;     /* Space to the right of the icon */
+  font-size: 1.5rem;      /* Font size of the icon */
+  cursor: pointer;        /* Changes the cursor to indicate it's clickable */
 }
 
+/* Shared styles for note textarea and title */
 .note-textarea,
 .note-title {
-  color: #000000;
-  width: 100%;
-  outline: none;
-  border: none;
+  color: #000000;    /* Text color */
+  width: 100%;       /* Take up full available width */
+  outline: none;     /* Removes the default outline */
+  border: none;      /* Removes borders */
 }
 
+/* Specific styles for note textarea */
 .note-textarea {
-  resize: none;
-  height: calc(100% - 63px);
-  padding-top: 15px;
+  resize: none;                              /* Disables user resizing of textarea */
+  height: calc(100% - 63px);                 /* Sets height with some space left for other elements */
+  padding-top: 15px;                         /* Space at the top inside the textarea */
 }
 
+/* Specific styles for note title */
 .note-title {
-  height: 50px;
-  margin-top: 13px;
-  font-size: 3rem;
+  height: 50px;          /* Fixed height for title */
+  margin-top: 13px;      /* Margin at the top */
+  font-size: 3rem;       /* Font size of the title */
 }
 
+/* Styles for read-only note-title and note-textarea */
 .note-title:read-only,
 .note-textarea:read-only {
-  color: #757575;
+  color: #757575; /* Different text color for read-only state */
 }
 
+/* Styles for the card inside list-container */
 .list-container .card {
-  height: calc(100vh - 70px);
-  border-bottom: none;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
+  height: calc(100vh - 70px);         /* Adjusting the height relative to the viewport */
+  border-bottom: none;                /* Removes border at the bottom */
+  border-bottom-right-radius: 0;     /* Removes bottom right corner rounding */
+  border-bottom-left-radius: 0;      /* Removes bottom left corner rounding */
 }
 
+/* Styles for list-container */
 .list-container {
-  padding-left: 0;
+  padding-left: 0; /* Removes left padding */
 }
 
+/* Shared styles for list-group, first child of list-group-item, and card inside list-container */
 .list-container .list-group,
 .list-container .list-group-item:first-child,
 .list-container .card {
-  border-top: none;
-  border-top-right-radius: 0;
-  border-top-left-radius: 0;
+  border-top: none;                 /* Removes top border */
+  border-top-right-radius: 0;      /* Removes top right corner rounding */
+  border-top-left-radius: 0;       /* Removes top left corner rounding */
 }
 
+/* Styles for list-item-title */
 .list-item-title {
-  display: inline-block;
-  width: 75%;
+  display: inline-block; /* Displays the element inline with block properties */
+  width: 75%;            /* Takes up 75% width of its parent */
 }
 
+/* Styles for icons inside list-container */
 .list-container i {
-  font-size: 1.1rem;
-  cursor: pointer;
+  font-size: 1.1rem;     /* Font size of the icon */
+  cursor: pointer;       /* Changes cursor to indicate it's clickable */
 }
 
+/* Styles for list-group-item inside list-container */
 .list-container .list-group-item {
-  border-left: none;
-  border-right: none;
-  padding: 20px;
-  cursor: pointer;
+  border-left: none;      /* Removes left border */
+  border-right: none;     /* Removes right border */
+  padding: 20px;          /* Adds padding inside the list item */
+  cursor: pointer;        /* Changes cursor to indicate it's clickable */
 }
