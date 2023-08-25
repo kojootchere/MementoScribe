@@ -10,7 +10,7 @@ MementoScribe is a state-of-the-art note-taking application built for profession
 - [Contributing](#contributing)
 - [Questions](#questions)
 - [Screenshot](#screenshot)
-- [Link to the Deployed Application](#link_to_the_Deployed_Application)
+- [Link to the Deployed Application](#link-to-the-deployed-application)
 
 ## Usage
 
@@ -30,10 +30,12 @@ For any questions, please contact me at [https://github.com/kojootchere](https:/
 
 ## Screenshot
 
-![MementoScribe Landing Page](./screenshots/MementoScribe_Landing_Page.jpeg)
+![MementoScribe Landing Page](./screenshots/MementoScribe_Landing_Page.jpg)
 
-![MementoScribe Notes Page](./screenshots/MementoScribe_Notes_Page.jpeg)
+![MementoScribe Notes Page](./screenshots/MementoScribe_Notes_Page.jpg)
 
 ## Link to the Deployed Application
 
 Link to Deployed Application: https://mementoscribe-8b3f2af07cc2.herokuapp.com/
+
+Improved code clarity with comprehensive comments and created a comprehensive README for project documentation.
