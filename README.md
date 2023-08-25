@@ -37,5 +37,3 @@ For any questions, please contact me at [https://github.com/kojootchere](https:/
 ## Link to the Deployed Application
 
 Link to Deployed Application: https://mementoscribe-8b3f2af07cc2.herokuapp.com/
-
-Improved code clarity with comprehensive comments and created a comprehensive README for project documentation.
