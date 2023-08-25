@@ -7,7 +7,7 @@ MementoScribe is a state-of-the-art note-taking application built for profession
 ## Table of Contents
 - [Usage](#usage)
 - [License](#license)
-- [Contributing](#contributing)
+- [Contributions](#contributions)
 - [Questions](#questions)
 - [Screenshot](#screenshot)
 - [Link to the Deployed Application](#link-to-the-deployed-application)
@@ -20,7 +20,7 @@ Once you have the application running, navigate to the provided URL. Here, you c
 
 This project is licensed under the MIT License. For more details, please see the LICENSE file.
 
-## Contributing
+## Contributions
 
 N/A
 
@@ -28,7 +28,7 @@ N/A
 
 For any questions, please contact me at [https://github.com/kojootchere](https://github.com/kojootchere) or [email me](mailto:kojootchere@gmail.com).
 
-## Screenshot
+## Screenshots
 
 ![MementoScribe Landing Page](./screenshots/MementoScribe_Landing_Page.jpg)
 
